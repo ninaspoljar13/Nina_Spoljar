@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+ font-family:"Nina Špoljar";
+	src: url("../font/NinaSpoljar.ttf");
+}
+.ime {
+	font-family: "Nina Špoljar", sans-serif;
+	font-size: 48px;
+}
+.pozdrav {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    padding: 15px 25px;
+	}
+body {
+    margin: 0;
+    background-image: url("../slike/pozadina.jpg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    margin: 0 20px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+.vjezbe-blok {
+    max-width: 900px;
+    margin: 40px auto;             
+    background-color: rgba(0,0,0,0.6);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.vjezbe-blok img {
+    width: 250px;
+    height: auto;
+    margin: 15px;
+}
+
+.vjezbe-blok h2 {
+    color: white;
+    margin-top: 30px;
+}
