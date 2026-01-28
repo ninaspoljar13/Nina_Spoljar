@@ -2,7 +2,7 @@
 /* CSS Document */
 @font-face{
  font-family:"Nina Špoljar";
-	src: url("../font/NinaSpoljar.ttf");
+	src: url("NinaSpoljar.ttf");
 }
 .ime {
 	font-family: "Nina Špoljar", sans-serif;
